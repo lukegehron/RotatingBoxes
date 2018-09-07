@@ -12,6 +12,7 @@ var N;
 var Y;
 var E;
 var none;
+var texColor = 0;
 
 function setup() {
   createCanvas(2100,240,WEBGL);
@@ -113,7 +114,7 @@ function draw() {
   push();
   translate(-900,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
   push();
   texture(none);
@@ -148,7 +149,7 @@ function draw() {
   push();
   translate(-750,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
   push();
   texture(none);
@@ -183,7 +184,7 @@ function draw() {
   push();
   translate(-600,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -219,7 +220,7 @@ function draw() {
   push();
   translate(-450,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -257,7 +258,7 @@ function draw() {
   push();
   translate(-300,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -295,7 +296,7 @@ function draw() {
   push();
   translate(-150,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -334,7 +335,7 @@ function draw() {
 
   push();
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -373,7 +374,7 @@ function draw() {
   push();
   translate(150,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -411,7 +412,7 @@ function draw() {
   push();
   translate(300,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -449,7 +450,7 @@ function draw() {
   push();
   translate(450,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -487,7 +488,7 @@ function draw() {
   push();
   translate(600,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -525,7 +526,7 @@ function draw() {
   push();
   translate(750,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
@@ -563,7 +564,7 @@ function draw() {
   push();
   translate(900,0,0);
   rotateY(frameCount * PI/200);
-  ambientMaterial(20);
+  ambientMaterial(texColor);
   box(99,99,99);
 
   push();
